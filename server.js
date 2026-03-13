@@ -4,8 +4,16 @@ const path = require('path');
 const app = express();
 const PORT = 4000;
 
-// MySQL connection
 const db = mysql.createConnection({
+  host: 'database-1.cf6soui00spt.ap-south-1.rds.amazonaws.com',
+  user: 'admin',
+  password: 'admin0909',
+  database: 'demo_db'
+  port: 3306
+});
+
+// MySQL connection
+({
   host: 'localhost',
   user: 'nodeuser',
   password: 'StrongPassword123!',
