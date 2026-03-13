@@ -50,5 +50,5 @@ app.get('/contacts', (req, res) => {
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`Server running on http://13.204.45.180:${PORT}`);
+  console.log(`Server running on http://13.203.207.210:${PORT}`);
 });
